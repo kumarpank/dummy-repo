@@ -37,7 +37,7 @@ Q.5 How to specify the metadata in HTML5?
 a closing tag some of the attrivutes used with meta tage are name,
 content.
 
-\<meta name=\"keywords\" content=\"HTML, Meta, Metadata\"/\>
+```<meta name=\"keywords\" content=\"HTML, Meta, Metadata\"/\>```
 
 Q.6 Is the \<datalist\> tag and \<select\> tag same?
 
@@ -52,10 +52,12 @@ Q.7 Define Image Map?
 different web pages it an be acheived by the \<map\> tag in HTML5, using
 which we can link images with clickable areas.
 
-\<img src="image_url" , usemap="#workspace" /\> \<map name="workspace"\>
-\<area shape="rect" coords="34, 44, 270, 350" , href="xyz.html" /\>
-\<area shape="rect" coords="10, 120, 250, 360" , href="xyz.html" /\>
-\</map\>
+```
+  <img src="image_url" , usemap="#workspace" /\> \<map name="workspace"\>
+      <area shape="rect" coords="34, 44, 270, 350" , href="xyz.html" /\>
+      <area shape="rect" coords="10, 120, 250, 360" , href="xyz.html" /\>
+    </map\>
+```
 
 Q.8 What are semantic elemets?
 
@@ -132,8 +134,10 @@ Q.15 Explain HTML5 Graphics.
 add different graphics designs on web pages with avaliable methods for
 drawing various geometric shapes.
 
-\<canvas width=\"300\" height=\"100\" style=\"border:2px
-solid;\"\>\</canvas\>
+  ```
+  <canvas width=\"300\" height=\"100\" style=\"border:2px
+  solid;\"\>\</canvas\>
+```
 
 -SVG: svalable vector graphics are used mostly for diagrams or icons. it
 follows the xml format.
@@ -191,8 +195,9 @@ Q.23 How to support svg in old browsers?
 attribute of \<img\> tag it should be defined in srcset attribure and in
 src the fallback png should be defined.
 
-\<img src=\"circle.png\" alt=\"circle\" srcset=\"circle.svg\"\>
-
+```
+  <img src=\"circle.png\" alt=\"circle\" srcset=\"circle.svg\"\>
+```
 Q.24 What are different approaches to make an image responsive?
 
 Q.25 What is manifest file in HTML5?
